@@ -40,7 +40,7 @@
     <tr>
       <td>05</td>
       <td>Blurry Loading</td>
-    </tr>
+      <td>Done</td>
     <tr>
       <td>06</td>
       <td>Scroll Animation</td>
