@@ -44,6 +44,7 @@
     <tr>
       <td>06</td>
       <td>Scroll Animation</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>07</td>
