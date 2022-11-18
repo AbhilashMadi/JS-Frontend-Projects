@@ -49,6 +49,7 @@
     <tr>
       <td>07</td>
       <td>Split Landing Page</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>08</td>

@@ -1,0 +1,154 @@
+@font-face {
+    font-family: zrnic rg;
+    src: url(./assests/zrnic\ rg.ttf);
+}
+
+:root{
+    --font-: zrnic rg;
+    --background-color-left-:rgba(6, 135, 255, 0.7);
+    --background-color-right-:rgba(50, 50, 50, 0.3);
+    --btn-color-left-:rgb(0, 71, 138);
+    --btn-color-right-:rgb(13, 150, 0); 
+    --hover-width-: 75%;
+    --other-width-:25%;
+    --speed-:1000ms;
+    --playstation-:url('./assests/playstation.png');
+    --xbox-:url('./assests/xbox.png');
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+} 
+
+h1{
+    font-family: var(--font-);
+}
+
+a{
+    font-family: Inter;
+}
+
+.btn{
+    position: absolute;
+    left:50%;
+    top:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color:#FFFFFF;
+    border:0.2rem solid #FFFFFF;
+    font-size: 1rem;
+    width: 15rem;
+    padding:1.5rem;
+    /* text-align: center; */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.split.left .btn:hover{
+    background-color: var(--btn-color-left-);
+    border-color: var(--btn-color-left-);
+    cursor:var(--playstation-),pointer;
+}
+
+.split.right .btn:hover{
+    background-color: var(--btn-color-right-);
+    border-color: var(--btn-color-right-);
+    cursor:var(--xbox-),pointer;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #333333;
+}
+
+.split{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.split.left{
+    left:0;
+    background: url('https://wallpapercave.com/wp/wp6967907.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.split.left::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background-color: var(--background-color-left-) !important;
+}
+
+.split.right{
+    right: 0;
+    background: url('https://wallpapercave.com/wp/wp10579619.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.split.right::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color-right-) !important;
+}
+
+.split.right,.split.left,.split.right::before,.split.left::before{
+    transition: all var(--speed-) ease-in-out;
+}
+
+h1{
+    font-size:4rem;
+    color:#FFFFFF;
+    position: absolute;
+    left:50%;
+    top:20%;
+    transform: translateX(-50%);
+    white-space:nowrap;
+}
+
+.hover-left .left{
+    width: var(--hover-width-);
+}
+
+.hover-left .right{
+    width: var(--other-width-);
+}
+
+.hover-right .right{
+    width:var(--hover-width-);
+}
+
+.hover-right .left{
+    width: var(--other-width-);
+}
+
+@media(max-width:800px){
+    h1{
+        font-size: 2rem;
+        top:30%;
+    }
+
+    .btn{
+        padding: 1.2rem;
+        width: 12rem;
+    }
+}
