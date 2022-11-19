@@ -84,7 +84,7 @@ img{
     outline: 0;
 }
 
-/* .developer a{
+.developer a{
     text-decoration: none;
     color:var(--black-);
     font-size: .8rem;
@@ -97,7 +97,7 @@ img{
     position: absolute;
     bottom:10%;
     right:10%;
-} */
+}
 
 @media (max-width:700px){
     .developer{
@@ -133,6 +133,17 @@ img{
     #jokeBtn{
         font-size:.8rem;
         white-space: nowrap;
+    }
+
+    .developer a{
+        font-size: 0.3rem;
+        border:none; 
+    }
+
+    .developer{
+        bottom: 20px;
+        right:10px;
+        position: fixed;
     }
 }
 
