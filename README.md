@@ -54,6 +54,7 @@
     <tr>
       <td>08</td>
       <td>Form Wave Animation</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>09</td>
