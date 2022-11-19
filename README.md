@@ -63,6 +63,7 @@
     <tr>
       <td>10</td>
       <td>Dad Jokes</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>11</td>

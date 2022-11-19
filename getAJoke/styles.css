@@ -1,0 +1,107 @@
+@font-face {
+
+    font-family: comic;
+    src: url(./assets/digistrip.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=inter&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --black-:#333333;
+    --pink-: #ff206e;
+    --yellow-:#fbff12;
+    --blue-:#41ead4;
+    --white-:#ffffff;
+    --font-:comic;
+}
+
+body{
+ background-color:var(--pink-);
+ width:100%;
+ height: 100vh;
+ font-family: var(--font-);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ position: relative;
+ padding:20px;
+}
+
+.container{
+    background-color: var(--yellow-);
+    max-width: 100%;
+    width:600px;
+    padding: 60px 100px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1),0 6px 6px rgba(0,0,0,0.1);
+}
+
+img{
+    width:250px;
+    filter: drop-shadow(0px 6px 6px rgba(0,0,0,.2));
+}
+
+.joke p{
+    font-family: inherit;
+    font-size: 1.2rem;
+    word-wrap: break-word;
+    font-weight: 400;
+    margin:50px auto;
+    max-width: 500px;
+}
+
+#joke p{
+    line-height: 25px;
+}
+
+.btn{
+    background-color: var(--blue-);
+    font-family: inter;
+    font-size:1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border:0;
+    padding:10px 14px;
+    border-radius: 2px;
+    border:1px dashed black;
+    box-shadow:  0 10px 20px rgba(0,0,0,0.1),0 6px 6px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+
+.btn:focus{
+    outline: 0;
+}
+
+.developer a{
+    text-decoration: none;
+    color:var(--black-);
+    font-size: .8rem;
+    padding:10px 15px;
+    /* background-color: var(--yellow-); */
+    letter-spacing: 1px;
+    border: 1px dashed var(--black-)
+}
+
+.developer{
+    position: absolute;
+    bottom:10%;
+    right:10%;
+}
+
+@media (max-width:700px){
+    .developer{
+        right:40%;
+    }
+}
