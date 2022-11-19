@@ -4,7 +4,7 @@
     src: url(./assets/digistrip.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css?family=inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 
 *{
     box-sizing: border-box;
@@ -64,7 +64,7 @@ img{
 
 .btn{
     background-color: var(--blue-);
-    font-family: inter;
+    font-family: var(--font-);
     font-size:1rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -84,12 +84,11 @@ img{
     outline: 0;
 }
 
-.developer a{
+/* .developer a{
     text-decoration: none;
     color:var(--black-);
     font-size: .8rem;
     padding:10px 15px;
-    /* background-color: var(--yellow-); */
     letter-spacing: 1px;
     border: 1px dashed var(--black-)
 }
@@ -98,10 +97,63 @@ img{
     position: absolute;
     bottom:10%;
     right:10%;
-}
+} */
 
 @media (max-width:700px){
     .developer{
         right:40%;
+    }
+}
+
+@media (max-width:500px){
+    img{
+        width:200px;
+    }
+}
+
+@media (max-width:400px){
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding:20px auto;
+    }
+
+    img{
+        width:200px;
+    }
+
+    #joke p{
+        padding:0;
+        font-size: 1rem;
+        flex-grow: 1;
+    }
+
+    #jokeBtn{
+        font-size:.8rem;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width:350px){
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    img{
+        width:140px;
+    }
+
+    #joke p{
+        font-size:1rem;
+    }
+
+    #jokeBtn{
+        font-size:.8rem;
+        white-space: nowrap;
     }
 }
