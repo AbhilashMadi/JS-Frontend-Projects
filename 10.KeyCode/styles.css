@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --bg- : #F2F4F8;
+    --white-: #FFFFFF;
+    --yellow-: #FFC600;
+    --black-: #2E2E2E;
+    --shadow-: 0 14px 26px rgba(0 0 0/4%)
+}
+
+body{
+    background-color: var(--bg-);
+    width:100%;
+    min-height:90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+}
+
+.container{
+    width:1042px;
+    height:438px;
+    /* border:1px dashed; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: visible;
+}
+
+.box-top{
+    width: 100%;
+    height: 195px;
+    background-color: var(--white-);
+    top:0px;
+    position: relative;
+}
+
+.cards{
+    width:100%;
+    height: 200px;
+    margin-top: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    width:250px;
+    height:200px;
+    background-color: var(--white-);
+    position: relative;
+        transition: all .3s ease;
+}
+
+.card:hover{
+    box-shadow: 0 14px 26px rgb(0 0 0/8%);
+    margin-bottom:15px;
+}
+
+
+.headding-top{
+    background-color: var(--yellow-);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headding-top p{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--black-);
+}
+
+.card-top{
+    background-color: var(--yellow-);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-top p{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    color:var(--black-)
+}
+
+.info-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+}
+
+#pressed{
+    color: var(--black-);
+    font-size: 2rem;
+}
+
+#event-key,#event-key-code,#time-stamp{
+    color:var(--black-);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+@media (max-width:400px) {
+    body{
+        padding:20px;
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container{
+        top:0px;
+    }
+    .cards{
+        flex-direction: column;
+    }
+
+    .card{
+        margin-top: 40px;
+    }
+}
