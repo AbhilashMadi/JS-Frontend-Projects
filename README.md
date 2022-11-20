@@ -68,6 +68,7 @@
     <tr>
       <td>11</td>
       <td>Event Key Codes</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>12</td>
