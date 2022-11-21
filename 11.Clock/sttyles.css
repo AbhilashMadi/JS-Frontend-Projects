@@ -72,7 +72,7 @@ body {
   height: 65px;
   width: 3px;
   transform-origin: bottom center;
-  transition: all 0.3 ease;
+  transition: all .3s ease;
 }
 
 .needle.hour {
