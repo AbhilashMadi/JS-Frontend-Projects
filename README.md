@@ -105,6 +105,7 @@
     <tr>
       <td>20</td>
       <td>Theme Clock</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>21</td>
