@@ -96,7 +96,8 @@
     </tr>
     <tr>
       <td>18</td>
-      <td>Background Slider</td>
+      <td>Hover Bord</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>19</td>
