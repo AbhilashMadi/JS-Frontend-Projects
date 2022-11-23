@@ -85,6 +85,7 @@
     <tr>
       <td>15</td>
       <td>Incrementing Counter</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>16</td>
