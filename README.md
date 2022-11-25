@@ -113,6 +113,7 @@
     <tr>
       <td>21</td>
       <td>Button Ripple Effect</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>22</td>
