@@ -90,6 +90,7 @@
     <tr>
       <td>16</td>
       <td>Drink Water</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>17</td>
