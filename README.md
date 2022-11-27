@@ -118,6 +118,7 @@
     <tr>
       <td>22</td>
       <td>Drag N Drop</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>23</td>
