@@ -57,6 +57,7 @@ header input:focus{
     background-color: #FFF;
     list-style: none;
     max-height: 400px;
+    min-height: 400px;
     overflow: hidden;
     overflow-y: auto;
 }
@@ -112,6 +113,30 @@ header input:focus{
     border-radius: 50px;
 }
 
+.loading{
+    font-weight: bold;
+    color:#333;
+
+}
+
+.loading span{
+    margin-left:2px;
+    animation: pulse 1000ms cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
+}
+
+@keyframes pulse{
+    0%{
+        opacity: 0.4;
+    }
+    
+    50%{
+        opacity: 0.6;
+    }
+
+    /* 100%{
+        opacity: 1;
+    } */
+}
 /*Highlighting the country*/
 .country{
     background-color: rgb(238, 238, 238);

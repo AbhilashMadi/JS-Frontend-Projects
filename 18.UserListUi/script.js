@@ -1,7 +1,7 @@
 const result = document.getElementById("result") //ul
 const filter = document.getElementById("filter") //input
 const listItems = [];
-const users = 150;
+const users = 500;
 
 //GET Data from the randomuser.me api service...
 async function fetchData(){
@@ -10,7 +10,7 @@ async function fetchData(){
     //destructuring the api given data and taking results from it
     const { results } = await response.json();
 
-    result.innerHTML = "";
+    setTimeout(() => result.innerHTML = "",1000);
 
     results.forEach((user) => {
         const li = document.createElement("li");
@@ -22,8 +22,8 @@ async function fetchData(){
             <p><span>${user.location.state}</span>,<span class="country">${user.location.country}</span></p>
         </div>
         `;
+    setTimeout(() => result.appendChild(li), 1001);
         
-        result.appendChild(li);
     })
 }
 fetchData();
