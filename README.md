@@ -130,7 +130,8 @@
     </tr>
     <tr>
       <td>25</td>
-      <td>Content Placeholder</td>
+      <td>Live User Filter</td>
+      <td>Done</td>
     </tr>
   </tbody>
 </table>
