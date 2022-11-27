@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: #FFF;
+    font-family: "Inter";
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container{
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+    width: 300px;
+}
+
+.subtitle{
+    display: inline-block;
+    margin:5px 0 20px;
+    opacity: 0.8;
+}
+
+header{
+    background-color: #3e57db;
+    color:#FFF;
+    padding:30px 20px;
+}
+
+header input{
+    background-color: rgba(0,0,0,0.3);
+    border:0;
+    border-radius: 50px;
+    color:#FFF;
+    font-size: 14px;
+    padding:10px 15px;
+    margin-top:20px;
+    width:100%;
+    width:100%;
+}
+
+header input::placeholder{
+    color:rgba(250,250,250,0.5);
+}
+
+header input:focus{
+    outline: none;
+}
+
+.users-list{
+    background-color: #FFF;
+    list-style: none;
+    max-height: 400px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.users-list li{
+    display: flex;
+    padding:20px;
+}
+
+.user-image{
+    border-radius: 50%;
+    object-fit: cover;
+    width:50px;
+    height: 50px;
+}
+
+.users-list .user-info{
+    margin-left:10px;
+}
+
+.users-list .user-info h4{
+    margin:0 0 10px;
+}
+
+.users-list .user-info p{
+    font-size: 12px;
+    font-weight: auto;
+}
+
+.users-list li:not(:last-of-type){
+    border-bottom: 1px solid #EEE;
+}
+
+.users-list li.hide{
+    display: none;
+}
+
+.users-list::-webkit-scrollbar-track
+{
+	/* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+	background-color: #F5F5F5;
+}
+
+.users-list::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.users-list::-webkit-scrollbar-thumb
+{
+	background-color: #b6b6b6;
+    border-radius: 50px;
+}
+
+/*Highlighting the country*/
+.country{
+    background-color: rgb(238, 238, 238);
+    padding: 1px 4px;
+    border-radius: 3px;
+    margin-left:4px;
+}
