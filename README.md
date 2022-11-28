@@ -103,7 +103,8 @@
     </tr>
     <tr>
       <td>19</td>
-      <td>Background Slider</td>
+      <td>Scroll</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>20</td>
