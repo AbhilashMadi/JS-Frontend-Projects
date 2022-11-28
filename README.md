@@ -127,6 +127,7 @@
     <tr>
       <td>24</td>
       <td>Kinetic CSS Loader</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>25</td>
