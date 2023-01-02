@@ -123,7 +123,8 @@
     </tr>
     <tr>
       <td>23</td>
-      <td>Drawing App</td>
+      <td>Butter Paralox scroll</td>
+      </td>Done</td>
     </tr>
     <tr>
       <td>24</td>
