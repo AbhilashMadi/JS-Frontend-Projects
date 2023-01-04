@@ -32,8 +32,8 @@ body {
 }
 
 .plus1{
-    width: 2em;
-    height: 2em;
+    width: 1em;
+    height: 1em;
     position: relative;
     top: 0.25em;
     left: 0.25em;
@@ -43,7 +43,7 @@ body {
     content: "";
     position: absolute;
     background-color: aliceblue;
-    width: 2em;
+    width: 1em;
     height: 2px;
     top: 50%;
     bottom: 5px;
@@ -55,34 +55,16 @@ body {
     position: absolute;
     background-color: aliceblue;
     width:2px;
-    height: 2em;
+    height: 1em;
     left: 50%;
     right: 5px;
     display: block;
 }
 
-.title{
-    font-family: "Inter";
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    position: absolute;
-    top:15%;
-    left: 50%;
-    background: -webkit-linear-gradient(white, rgb(255, 88, 88));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    user-select: none;
-}
-
 @media (width <= 900px) {
     .plus1{
-        width: 1.5em;
-        height: 1.5em;
+        width: 1em;
+        height: 1em;
         overflow: hidden;
-    }
-
-    .title{
-        visibility: hidden;
     }
 }
