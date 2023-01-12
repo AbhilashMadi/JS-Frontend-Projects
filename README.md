@@ -30,7 +30,8 @@
     </tr>
     <tr>
       <td>03</td>
-      <td>Rotating Navigation</td>
+      <td>Butter Scroll(21)</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>04</td>
@@ -72,15 +73,18 @@
     </tr>
     <tr>
       <td>12</td>
-      <td>FAQ Collapse</td>
+      <td>Gradient Text(22)</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>13</td>
-      <td>Random Choice Picker</td>
+      <td>Change Color <br> HexCode generator(23)</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>14</td>
-      <td>Animated Navigation</td>
+      <td>Custom Cursor</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>15</td>
@@ -94,7 +98,8 @@
     </tr>
     <tr>
       <td>17</td>
-      <td>Movie App</td>
+      <td>Scroll Reveal(25)</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>18</td>
