@@ -30,7 +30,7 @@
     </tr>
     <tr>
       <td>03</td>
-      <td>Butter Scroll(21)</td>
+      <td>Rotating Navigation</td>
       <td>Done</td>
     </tr>
     <tr>
@@ -59,86 +59,87 @@
     </tr>
     <tr>
       <td>09</td>
-      <td>Sound Board</td>
+      <td>Get funny joke</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>10</td>
-      <td>Dad Jokes</td>
+      <td>Key code</td>
       <td>Done</td>
     </tr>
     <tr>
       <td>11</td>
-      <td>Event Key Codes</td>
+      <td>Clock</td>
       <td>Done</td>
     </tr>
     <tr>
       <td>12</td>
-      <td>Gradient Text(22)</td>
+      <td>Content Placeholder</td>
       <td>Done</td>
     </tr>
     <tr>
       <td>13</td>
-      <td>Change Color <br> HexCode generator(23)</td>
+      <td>Hover Board</td>
       <td>Done</td>
     </tr>
     <tr>
       <td>14</td>
-      <td>Custom Cursor</td>
+      <td>Increment Counter</td>
       <td>Done</td>
     </tr>
     <tr>
       <td>15</td>
-      <td>Incrementing Counter</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>16</td>
       <td>Drink Water</td>
       <td>Done</td>
     </tr>
     <tr>
-      <td>17</td>
-      <td>Scroll Reveal(25)</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>Hover Bord</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>Scroll</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>Theme Clock</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>21</td>
+      <td>16</td>
       <td>Button Ripple Effect</td>
       <td>Done</td>
     </tr>
     <tr>
+      <td>17</td>
+      <td>Drag and Drop</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>User List UI </br> Component</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>CSS Kinetic Loader</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Scroll</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Butter Paralox Carousel</td>
+      <td>Done</td>
+    </tr>
+    <tr>
       <td>22</td>
-      <td>Drag N Drop</td>
+      <td>Gradient text</td>
       <td>Done</td>
     </tr>
     <tr>
       <td>23</td>
-      <td>Butter Paralox scroll</td>
-      </td>Done</td>
+      <td>Changing Color <br> Hexcode Generation</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>24</td>
-      <td>Kinetic CSS Loader</td>
+      <td>Custom Cursor</td>
       <td>Done</td>
     </tr>
     <tr>
       <td>25</td>
-      <td>Live User Filter</td>
+      <td>Reveal Effect</td>
       <td>Done</td>
     </tr>
   </tbody>
