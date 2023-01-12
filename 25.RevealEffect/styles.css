@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: hsl(0,0%,12%);
+    color: hsl(0,0%,100%);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.img-box{
+    height: 800px;
+    overflow: hidden;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-box{
+    padding-inline: 10em;
+}
+
+.title{
+    font-size: 5em;
+    max-width: max-content; /**-----------------*/
+    margin-block-end: 0.25em; /**-----------------*/
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.para{
+    opacity: 0.6;
+    line-height: 2.25;
+}
+
+[data-reveal="left"]{
+    clip-path: inset(0 100% 0 0);
+}
+
+[data-reveal="left"].revealed{
+    animation: reveal-left 1.2s cubic-bezier(0.17,0.97,0.38,1) forwards 300ms;
+}
+
+@keyframes reveal-left {
+    0%{
+        clip-path: inset(0 100% 0 0);
+    }
+
+    100%{
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+[data-reveal="right"]{
+    clip-path: inset(0 0 0 100%);
+}
+
+[data-reveal="right"].revealed{
+    animation: reveal-right 1.2s cubic-bezier(0.17,0.97,0.38,1) forwards 300ms;
+}
+
+@keyframes reveal-right {
+    0%{
+        clip-path: inset(0 0 0 100%)
+    }
+
+    100%{
+        clip-path: inset(0 0 0 0)
+    }
+}
+
+.img-box .img{
+    transform: scale(1.5);
+    transition: 1.2s cubic-bezier(0.17,0.97,0.38,1);
+}
+
+.img-box.revealed .img{
+    transform: scale(1);
+}
