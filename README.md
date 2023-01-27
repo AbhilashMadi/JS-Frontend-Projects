@@ -142,5 +142,10 @@
       <td>Reveal Effect</td>
       <td>Done</td>
     </tr>
+    <tr>
+      <td>26</td>
+      <td>Hacked Text Effect</td>
+      <td>Done</td>
+    </tr>
   </tbody>
 </table>
